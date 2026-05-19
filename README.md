@@ -15,7 +15,7 @@ The workflow implemented in this project consists of:
 3. Quantizing the $\alpha$-image into equivalence classes.
 4. Estimating the Hausdorff dimension using box-counting.
 5. Constructing the multifractal spectrum (f($\alpha$)).
-6. Segmenting images using the ($f(\alpha)$)-image and Otsu thresholding.
+6. Segmenting images using the $f(\alpha)$-image and Otsu thresholding.
 
 Different local measures are implemented:
 
