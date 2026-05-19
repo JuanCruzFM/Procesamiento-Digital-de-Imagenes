@@ -14,7 +14,7 @@ The workflow implemented in this project consists of:
 2. Computing the local Hölder exponent ($\alpha$-image).
 3. Quantizing the $\alpha$-image into equivalence classes.
 4. Estimating the Hausdorff dimension using box-counting.
-5. Constructing the multifractal spectrum (f($\alpha$)).
+5. Constructing the multifractal spectrum $f($\alpha$)$.
 6. Segmenting images using the $f(\alpha)$-image and Otsu thresholding.
 
 Different local measures are implemented:
@@ -29,7 +29,7 @@ Each measure produces a different multifractal spectrum.
 
 # Mathematical Background
 
-For a local measure (\mu(B(x,r))) defined on a neighborhood centered at point (x) with radius (r), the Hölder exponent is defined as:
+For a local measure $\mu(B(x,r))$ defined on a neighborhood centered at point $x$ with radius $r$, the Hölder exponent is defined as:
 
 $$
 \alpha(x)=\lim_{r\to0}\frac{\log\mu(B(x,r))}{\log r}
@@ -43,7 +43,7 @@ $$
 \log r
 $$
 
-The multifractal spectrum (f(\alpha)) is estimated using a box-counting approach.
+The multifractal spectrum $f(\alpha)$ is estimated using a box-counting approach.
 
 
 # Notes on Performance
