@@ -11,11 +11,11 @@ The objective is to characterize spatial heterogeneity and texture patterns in s
 The workflow implemented in this project consists of:
 
 1. Loading and preprocessing grayscale satellite images.
-2. Computing the local Hölder exponent (($\alpha$)-image).
-3. Quantizing the (\alpha)-image into equivalence classes.
+2. Computing the local Hölder exponent ($\alpha$-image).
+3. Quantizing the $\alpha$-image into equivalence classes.
 4. Estimating the Hausdorff dimension using box-counting.
-5. Constructing the multifractal spectrum (f(\alpha)).
-6. Segmenting images using the (f(\alpha))-image and Otsu thresholding.
+5. Constructing the multifractal spectrum (f($\alpha$)).
+6. Segmenting images using the ($f(\alpha)$)-image and Otsu thresholding.
 
 Different local measures are implemented:
 
