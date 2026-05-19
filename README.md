@@ -34,6 +34,7 @@ For a local measure (\mu(B(x,r))) defined on a neighborhood centered at point (x
 $$
 \alpha(x)=\lim_{r\to0}\frac{\log\mu(B(x,r))}{\log r}
 $$
+
 Numerically, the exponent is obtained through a linear regression between:
 
 $$
